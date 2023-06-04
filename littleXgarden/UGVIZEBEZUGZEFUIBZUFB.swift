@@ -5,7 +5,9 @@ import SwiftUI
 
 struct UGVIZEBEZUGZEFUIBZUFB: View {
     var body: some View {
-        Text(HELLO ASMR)
+        Text("hello github")
+            .font(.body)
+        
     }
 }
 
