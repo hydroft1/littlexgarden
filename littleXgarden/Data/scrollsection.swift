@@ -1,9 +1,4 @@
-//
-//  scrollsection.swift
-//  littleXgarden
-//
-//  Created by Alexandre Marquet on 04/06/2023.
-//
+// created by Alexandre
 
 import SwiftUI
 
