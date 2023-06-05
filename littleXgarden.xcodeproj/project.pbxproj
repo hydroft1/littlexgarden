@@ -18,6 +18,7 @@
 		15EE93682A21227900F2DF65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EE93672A21227900F2DF65 /* ContentView.swift */; };
 		15EE936A2A21227A00F2DF65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15EE93692A21227A00F2DF65 /* Assets.xcassets */; };
 		15EE936D2A21227A00F2DF65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15EE936C2A21227A00F2DF65 /* Preview Assets.xcassets */; };
+		15F9A9332A2D9E1600384C15 /* partenairsection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F9A9322A2D9E1600384C15 /* partenairsection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		15EE936C2A21227A00F2DF65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		15EE93722A21227B00F2DF65 /* littleXgardenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = littleXgardenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15EE937C2A21227B00F2DF65 /* littleXgardenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = littleXgardenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15F9A9322A2D9E1600384C15 /* partenairsection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = partenairsection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				157EDE852A2D17960088C1FC /* scrollsection.swift */,
+				15F9A9322A2D9E1600384C15 /* partenairsection.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				158C648E2A2CE7DB00FF65F1 /* CustomTabBar.swift in Sources */,
 				157C09F32A2B94E10043DD80 /* home.swift in Sources */,
 				15E7731B2A2BBA9300989F00 /* mangas.swift in Sources */,
+				15F9A9332A2D9E1600384C15 /* partenairsection.swift in Sources */,
 				15EE93662A21227900F2DF65 /* littleXgardenApp.swift in Sources */,
 				158332622A2B925B006746A6 /* information.swift in Sources */,
 				157EDE8D2A2D27D40088C1FC /* pageview.swift in Sources */,
