@@ -25,7 +25,7 @@ struct scrollsection: View {
                 HStack(spacing: 20.0){
                     ForEach(Like.indices, id: \.self) { index in
                         NavigationLink{
-                            Text("pageview")
+                            pageview()
                         } label: {
                             Image(Like[index])
                                 .resizable()

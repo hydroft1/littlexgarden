@@ -4,9 +4,11 @@
 import SwiftUI
 
 struct pageview: View {
+    
+    
     var body: some View {
         ZStack{
-            Image("poster1")
+            Image("poster2")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(maxHeight: .infinity, alignment: .top)
