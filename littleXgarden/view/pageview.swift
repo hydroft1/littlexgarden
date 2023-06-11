@@ -24,8 +24,8 @@ struct pageview: View {
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .frame(maxHeight: .infinity, alignment: .top)
-            VStack(alignment: .center, spacing: 0.0){
-                HStack(spacing: 0.0){
+            VStack(spacing: 0.0){
+                HStack(alignment: .center, spacing: 0.0){
                     CircleButton(action: {
                         dismiss()
                     }, image: "arrow.left")
@@ -34,11 +34,12 @@ struct pageview: View {
                     
                     
                 }
-                .padding([.top, .leading], 50.0)
+                
                 
             }
-            .padding(.leading, 16.0)
-            .frame(maxWidth: .nan, maxHeight: .infinity, alignment: .topLeading)
+            .padding([.top, .leading], 50.0)
+            .frame(maxWidth: .nan,maxHeight: .infinity, alignment: .topLeading)
+            
         }
         .background(Color("background"))
         .ignoresSafeArea()
