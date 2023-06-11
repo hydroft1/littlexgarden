@@ -4,19 +4,35 @@
 import SwiftUI
 
 struct pageview: View {
-    
+    @Environment(\.dismiss) var dismiss
     
     var body: some View {
         ZStack{
             Image("poster2")
                 .resizable()
-                .aspectRatio(contentMode: .fit)
+                .aspectRatio(contentMode: .fill)
                 .frame(maxHeight: .infinity, alignment: .top)
-            
+            VStack(alignment: .center, spacing: 0.0){
+                HStack(spacing: 0.0){
+                    CircleButton(action: {
+                        dismiss()
+                    }, image: "arrow.left")
+                    
+                    
+                    
+                    
+                }
+                .padding([.top, .leading], 50.0)
+                
+            }
+            .padding(.leading, 16.0)
+            .frame(maxWidth: .nan, maxHeight: .infinity, alignment: .topLeading)
         }
         .background(Color("background"))
         .ignoresSafeArea()
+        .navigationBarBackButtonHidden(true)
     }
+    
 }
 
 struct pageview_Previews: PreviewProvider {

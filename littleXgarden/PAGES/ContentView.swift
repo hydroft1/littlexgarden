@@ -30,7 +30,7 @@ struct ContentView: View {
                     .frame(maxWidth: .infinity)
                     .background(Color("background"))
                 
-            }
+            } 
             .ignoresSafeArea()
         .ignoresSafeArea(.keyboard)
         }

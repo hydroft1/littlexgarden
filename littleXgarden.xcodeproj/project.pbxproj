@@ -13,6 +13,7 @@
 		158332622A2B925B006746A6 /* information.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158332612A2B925B006746A6 /* information.swift */; };
 		158C64882A2CE4CE00FF65F1 /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158C64872A2CE4CE00FF65F1 /* TabData.swift */; };
 		158C648E2A2CE7DB00FF65F1 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158C648D2A2CE7DB00FF65F1 /* CustomTabBar.swift */; };
+		15A1B1182A3604BB004BFAA7 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A1B1172A3604BB004BFAA7 /* CircleButton.swift */; };
 		15E7731B2A2BBA9300989F00 /* mangas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E7731A2A2BBA9300989F00 /* mangas.swift */; };
 		15EE93662A21227900F2DF65 /* littleXgardenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EE93652A21227900F2DF65 /* littleXgardenApp.swift */; };
 		15EE93682A21227900F2DF65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EE93672A21227900F2DF65 /* ContentView.swift */; };
@@ -44,6 +45,7 @@
 		158332612A2B925B006746A6 /* information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = information.swift; sourceTree = "<group>"; };
 		158C64872A2CE4CE00FF65F1 /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
 		158C648D2A2CE7DB00FF65F1 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		15A1B1172A3604BB004BFAA7 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 		15E7731A2A2BBA9300989F00 /* mangas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mangas.swift; sourceTree = "<group>"; };
 		15EE93622A21227900F2DF65 /* littleXgarden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = littleXgarden.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15EE93652A21227900F2DF65 /* littleXgardenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = littleXgardenApp.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				157EDE852A2D17960088C1FC /* scrollsection.swift */,
+				15A1B1172A3604BB004BFAA7 /* CircleButton.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				157EDE862A2D17960088C1FC /* scrollsection.swift in Sources */,
 				158C648E2A2CE7DB00FF65F1 /* CustomTabBar.swift in Sources */,
 				157C09F32A2B94E10043DD80 /* home.swift in Sources */,
+				15A1B1182A3604BB004BFAA7 /* CircleButton.swift in Sources */,
 				15E7731B2A2BBA9300989F00 /* mangas.swift in Sources */,
 				15EE93662A21227900F2DF65 /* littleXgardenApp.swift in Sources */,
 				158332622A2B925B006746A6 /* information.swift in Sources */,
