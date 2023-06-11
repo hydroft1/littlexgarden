@@ -4,8 +4,16 @@ import SwiftUI
 
 struct information: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            VStack(){
+                SearchBar(searchText: .constant(""))
+                Text("Hello World")
+            }
+
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
     }
+    
 }
 
 struct information_Previews: PreviewProvider {

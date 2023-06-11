@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1563A3B22A3624710047A02F /* loadingscreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1563A3B12A3624710047A02F /* loadingscreen.swift */; };
+		1563A3B42A3630F40047A02F /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1563A3B32A3630F40047A02F /* SearchBar.swift */; };
 		157C09F32A2B94E10043DD80 /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157C09F22A2B94E10043DD80 /* home.swift */; };
 		157EDE862A2D17960088C1FC /* scrollsection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157EDE852A2D17960088C1FC /* scrollsection.swift */; };
 		157EDE8D2A2D27D40088C1FC /* pageview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157EDE8C2A2D27D40088C1FC /* pageview.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1563A3B12A3624710047A02F /* loadingscreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loadingscreen.swift; sourceTree = "<group>"; };
+		1563A3B32A3630F40047A02F /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		157C09F22A2B94E10043DD80 /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
 		157EDE852A2D17960088C1FC /* scrollsection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrollsection.swift; sourceTree = "<group>"; };
 		157EDE8C2A2D27D40088C1FC /* pageview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageview.swift; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 			children = (
 				157EDE852A2D17960088C1FC /* scrollsection.swift */,
 				15A1B1172A3604BB004BFAA7 /* CircleButton.swift */,
+				1563A3B32A3630F40047A02F /* SearchBar.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -107,6 +112,7 @@
 				15EE93652A21227900F2DF65 /* littleXgardenApp.swift */,
 				158C64872A2CE4CE00FF65F1 /* TabData.swift */,
 				158C648D2A2CE7DB00FF65F1 /* CustomTabBar.swift */,
+				1563A3B12A3624710047A02F /* loadingscreen.swift */,
 				15EE93672A21227900F2DF65 /* ContentView.swift */,
 			);
 			path = PAGES;
@@ -282,8 +288,10 @@
 			files = (
 				158C64882A2CE4CE00FF65F1 /* TabData.swift in Sources */,
 				15EE93682A21227900F2DF65 /* ContentView.swift in Sources */,
+				1563A3B22A3624710047A02F /* loadingscreen.swift in Sources */,
 				157EDE862A2D17960088C1FC /* scrollsection.swift in Sources */,
 				158C648E2A2CE7DB00FF65F1 /* CustomTabBar.swift in Sources */,
+				1563A3B42A3630F40047A02F /* SearchBar.swift in Sources */,
 				157C09F32A2B94E10043DD80 /* home.swift in Sources */,
 				15A1B1182A3604BB004BFAA7 /* CircleButton.swift in Sources */,
 				15E7731B2A2BBA9300989F00 /* mangas.swift in Sources */,
