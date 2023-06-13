@@ -8,8 +8,8 @@ struct information: View {
             VStack(){
                 SearchBar(searchText: .constant(""))
                 VStack{
-                    Button{
-                        
+                    NavigationLink{
+                        equipeview()
                     } label: {
                         Text("Notre équipe")
                             .font(.title3.bold())
