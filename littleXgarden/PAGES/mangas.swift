@@ -4,9 +4,18 @@ import SwiftUI
 
 struct mangas: View {
     var body: some View {
-        ZStack{
-            
+        ScrollView(showsIndicators: false){
+            VStack{
+                Text("Manga")
+                    .font(.title)
+                    .bold()
+                    .padding(.vertical, 24)
+                    .padding(.horizontal, 16)
+                ForEach(imagelist, id: \.name) { image in Vcard(image: image)}
+                    
+            }
         }
+
     }
 }
 

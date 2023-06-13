@@ -8,16 +8,17 @@
 import SwiftUI
 
 struct Vcard: View {
+    let image : imageCurrency
+    
     var body: some View {
         VStack{
-            Text("Animation in swiftui")
+            Image(image.iconName)
+                .resizable()
+                .frame(maxWidth: 300, maxHeight: 250)
+            Text(image.name)
                 .font(.title2).bold()
                 .frame(maxWidth: 170, alignment: .center)
-            Text("Build and animate an IOS app from scratch")
-                .opacity(0.7)
-                .font(.subheadline)
-            Text("20 SECTIONS - 3 HOURS".uppercased())
-                .font(.footnote)
+                .foregroundColor(Color.white)
                 
             
         }
@@ -30,6 +31,6 @@ struct Vcard: View {
 
 struct Vcard_Previews: PreviewProvider {
     static var previews: some View {
-        Vcard()
+        Vcard(image: imagelist[0])
     }
 }
