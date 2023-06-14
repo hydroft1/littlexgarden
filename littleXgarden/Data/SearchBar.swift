@@ -3,7 +3,7 @@
 import SwiftUI
 
 struct SearchBar: View {
-    @Binding var searchText: String
+    @State var searchText: String = ""
     
     var body: some View {
         
@@ -18,6 +18,7 @@ struct SearchBar: View {
                         .opacity(searchText.isEmpty ? 0.0: 1.0)
                     ,alignment: .trailing
                 )
+
         }
         .font(.headline)
         .padding()
@@ -30,12 +31,13 @@ struct SearchBar: View {
         )
         .padding()
     }
+    
 }
 
 struct SearchBar_Previews: PreviewProvider {
     static var previews: some View {
         Group{
-            SearchBar(searchText: .constant(""))
+            SearchBar()
         }
         
     }

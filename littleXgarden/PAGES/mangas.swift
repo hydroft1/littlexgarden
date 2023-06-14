@@ -7,7 +7,7 @@ struct mangas: View {
         ScrollView(showsIndicators: false){
             VStack{
                 VStack{
-                    SearchBar(searchText: .constant(""))
+                    SearchBar()
                 }
                 Text("Manga")
                     .foregroundColor(Color.white)

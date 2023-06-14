@@ -6,7 +6,7 @@ struct information: View {
     var body: some View {
         ZStack{
             VStack(){
-                SearchBar(searchText: .constant(""))
+                SearchBar()
                 VStack{
                     NavigationLink{
                         equipeview()
@@ -23,7 +23,7 @@ struct information: View {
                             )
                             .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
                             .shadow(color: Color(#colorLiteral(red: 0.7608050108, green: 0.8164883852, blue: 0.9259157777, alpha: 0.2)), radius: 20, x: 10, y: 10)
-                            .shadow(color: Color(#colorLiteral(red: 255, green: 255, blue: 255, alpha: 0.2)), radius: 20, x: -10, y: -10)
+                            .shadow(color: Color(#colorLiteral(red: 255, green: 255, blue: 255, alpha: 0.2)), radius: 20, x: -0, y: -10)
                     }
                     .padding(.horizontal, 50)
                     
