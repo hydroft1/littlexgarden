@@ -13,7 +13,7 @@ struct Vcard: View {
     var body: some View {
         ZStack{
                 NavigationLink{
-                    mangaview()
+                    mangaListView()
                 } label: {
                     VStack{
                         ZStack{

@@ -13,7 +13,7 @@ struct ScanList: View {
     var body: some View {
         ZStack{
                 NavigationLink{
-                    mangaview()
+                    mangaListView()
                 } label: {
                     VStack{
                         ZStack{
@@ -24,6 +24,10 @@ struct ScanList: View {
 
                         }
                         .frame(width: 250, height: 250)
+                        Text(scan.name)
+                            .font(.title2).bold()
+                            .frame(maxWidth: 170, alignment: .center)
+                            .foregroundColor(Color.white)
                         Text(scan.ep)
                             .font(.title2).bold()
                             .frame(maxWidth: 170, alignment: .center)

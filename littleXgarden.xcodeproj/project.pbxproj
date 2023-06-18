@@ -19,7 +19,7 @@
 		158C648E2A2CE7DB00FF65F1 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158C648D2A2CE7DB00FF65F1 /* CustomTabBar.swift */; };
 		15A1B1182A3604BB004BFAA7 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A1B1172A3604BB004BFAA7 /* CircleButton.swift */; };
 		15AABA572A3739CF00021D75 /* equipeview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AABA562A3739CF00021D75 /* equipeview.swift */; };
-		15DA1C722A3BA2920070839E /* mangaview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DA1C712A3BA2920070839E /* mangaview.swift */; };
+		15DA1C722A3BA2920070839E /* mangaListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DA1C712A3BA2920070839E /* mangaListView.swift */; };
 		15E7731B2A2BBA9300989F00 /* mangas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E7731A2A2BBA9300989F00 /* mangas.swift */; };
 		15ECD3912A3F3CBC00E653CE /* ScanList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ECD3902A3F3CBC00E653CE /* ScanList.swift */; };
 		15EE93662A21227900F2DF65 /* littleXgardenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EE93652A21227900F2DF65 /* littleXgardenApp.swift */; };
@@ -58,7 +58,7 @@
 		158C648D2A2CE7DB00FF65F1 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		15A1B1172A3604BB004BFAA7 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 		15AABA562A3739CF00021D75 /* equipeview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = equipeview.swift; sourceTree = "<group>"; };
-		15DA1C712A3BA2920070839E /* mangaview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mangaview.swift; sourceTree = "<group>"; };
+		15DA1C712A3BA2920070839E /* mangaListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mangaListView.swift; sourceTree = "<group>"; };
 		15E7731A2A2BBA9300989F00 /* mangas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mangas.swift; sourceTree = "<group>"; };
 		15ECD3902A3F3CBC00E653CE /* ScanList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanList.swift; sourceTree = "<group>"; };
 		15EE93622A21227900F2DF65 /* littleXgarden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = littleXgarden.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,7 +114,7 @@
 			children = (
 				157EDE8C2A2D27D40088C1FC /* pageview.swift */,
 				15AABA562A3739CF00021D75 /* equipeview.swift */,
-				15DA1C712A3BA2920070839E /* mangaview.swift */,
+				15DA1C712A3BA2920070839E /* mangaListView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -311,7 +311,7 @@
 				1563A3B42A3630F40047A02F /* SearchBar.swift in Sources */,
 				157C09F32A2B94E10043DD80 /* home.swift in Sources */,
 				15A1B1182A3604BB004BFAA7 /* CircleButton.swift in Sources */,
-				15DA1C722A3BA2920070839E /* mangaview.swift in Sources */,
+				15DA1C722A3BA2920070839E /* mangaListView.swift in Sources */,
 				15E7731B2A2BBA9300989F00 /* mangas.swift in Sources */,
 				15EE93662A21227900F2DF65 /* littleXgardenApp.swift in Sources */,
 				158332622A2B925B006746A6 /* information.swift in Sources */,

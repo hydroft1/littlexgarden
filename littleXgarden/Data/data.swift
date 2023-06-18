@@ -23,7 +23,7 @@ struct ScanCurrency {
 }
 
 let scanList = [
-    ScanCurrency(name: "One Pice ", ep: "1086", image: "1086"),
+    ScanCurrency(name: "One Piece ", ep: "1086", image: "1086"),
     ScanCurrency(name: "One Piece", ep: "1085", image: "1085")
 
 ]
