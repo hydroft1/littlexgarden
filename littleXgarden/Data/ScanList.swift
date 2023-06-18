@@ -13,7 +13,7 @@ struct ScanList: View {
     var body: some View {
         ZStack{
                 NavigationLink{
-                    mangaListView()
+                    PageListView()
                 } label: {
                     VStack{
                         ZStack{
