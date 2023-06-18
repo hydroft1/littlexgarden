@@ -27,3 +27,13 @@ let scanList = [
     ScanCurrency(name: "One Piece", ep: "1085", image: "1085")
 
 ]
+
+
+struct PageCurrency {
+    let page : String
+    let image : String
+}
+
+let pageList = [
+    PageCurrency(page: "1", image: "page1")
+]
