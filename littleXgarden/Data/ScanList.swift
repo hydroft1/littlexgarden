@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ScanList: View {
-    let image : imageCurrency
+    let scan : ScanCurrency
     
     var body: some View {
         ZStack{
@@ -17,14 +17,14 @@ struct ScanList: View {
                 } label: {
                     VStack{
                         ZStack{
-                            Image(image.iconName)
+                            Image(scan.image)
                                 .resizable()
                                 .frame(width: 250, height: 250)
                                 .cornerRadius(15)
 
                         }
                         .frame(width: 250, height: 250)
-                        Text(image.name)
+                        Text(scan.ep)
                             .font(.title2).bold()
                             .frame(maxWidth: 170, alignment: .center)
                             .foregroundColor(Color.white)
@@ -41,6 +41,6 @@ struct ScanList: View {
 
 struct ScanList_Previews: PreviewProvider {
     static var previews: some View {
-        ScanList(image: imagelist[0])
+        ScanList(scan: scanList[0])
     }
 }
