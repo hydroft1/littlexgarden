@@ -1,13 +1,13 @@
 //
-//  Vcard.swift
+//  ScanList.swift
 //  littleXgarden
 //
-//  Created by Alexandre Marquet on 13/06/2023.
+//  Created by Alexandre Marquet on 18/06/2023.
 //
 
 import SwiftUI
 
-struct Vcard: View {
+struct ScanList: View {
     let image : imageCurrency
     
     var body: some View {
@@ -36,12 +36,11 @@ struct Vcard: View {
 
                 }
         }
-
     }
 }
 
-struct Vcard_Previews: PreviewProvider {
+struct ScanList_Previews: PreviewProvider {
     static var previews: some View {
-        Vcard(image: imagelist[0])
+        ScanList(image: imagelist[0])
     }
 }

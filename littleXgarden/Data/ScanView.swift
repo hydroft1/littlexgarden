@@ -1,15 +1,13 @@
 //
-//  Vcard.swift
+//  ScanView.swift
 //  littleXgarden
 //
-//  Created by Alexandre Marquet on 13/06/2023.
+//  Created by Alexandre Marquet on 18/06/2023.
 //
 
 import SwiftUI
 
-struct Vcard: View {
-    let image : imageCurrency
-    
+struct ScanView: View {
     var body: some View {
         ZStack{
                 NavigationLink{
@@ -35,13 +33,11 @@ struct Vcard: View {
                     .shadow(color: Color("white").opacity(0.3), radius: 8, x:0, y:12)
 
                 }
-        }
-
-    }
+        }    }
 }
 
-struct Vcard_Previews: PreviewProvider {
+struct ScanView_Previews: PreviewProvider {
     static var previews: some View {
-        Vcard(image: imagelist[0])
+        ScanView()
     }
 }

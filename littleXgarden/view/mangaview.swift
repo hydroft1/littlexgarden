@@ -12,9 +12,22 @@ struct mangaview: View {
     
     var body: some View {
         ZStack{
-            Text("hello world")
-                .foregroundColor(Color.white)
-                .bold()
+            VStack(spacing: 18.0){
+
+                ForEach(imagelist, id: \.name) { image in Vcard(image: image)}
+            }
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
             VStack(spacing: 0.0){
                 HStack(alignment: .center, spacing: 0.0){
                     CircleButton(action: {
